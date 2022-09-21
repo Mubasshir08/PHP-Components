@@ -11,6 +11,6 @@ if(isset($_POST['submit-btn'])){
     if($query_run){
        // print_r($query_run);
         echo 'successfully founded data';
-       // print_r (mysqli_num_rows($query_run)); it's filter the actual matching data row 
+       // print_r (mysqli_num_rows($query_run)); it's filter the actual matching data row number
     }
 }
